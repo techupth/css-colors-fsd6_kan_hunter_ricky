@@ -1,1 +1,18 @@
-/* Start coding here */
+*{
+    margin: 0px;
+}
+.back1{
+    background-image: linear-gradient(50deg, hsl(0, 100%, 70%) , hsl(240, 100%, 70%));
+    width: 100vw;
+    height: 100vh;
+}
+.back2{
+    padding: 50px;
+    background-color: hsla(0, 50%, 100%, 0.5);
+    text-align: center;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
